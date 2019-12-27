@@ -1,0 +1,13 @@
+.content-list{
+    background: url('../../assets/img/fondo.jpg');
+    background-position: inherit;
+    background-size: cover;
+    min-height:600px;
+
+}
+ion-list{
+    background: transparent;
+}
+ion-item {
+    --ion-background-color: transparent;
+}

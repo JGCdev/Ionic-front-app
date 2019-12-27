@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
-
+  profileHeader: string = '/assets/img/profile-img-bg.png';
+  profileImg: string = '/assets/img/avatar.png';
   constructor() {}
 
 }

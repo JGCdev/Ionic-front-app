@@ -1,0 +1,72 @@
+<ion-header class="only-mobile">
+    <h2>Mi área</h2>
+</ion-header>
+<ion-content>
+    <div class="content mensajes">
+        <div class="sidebar only-web">
+            <div class="widget-profile">
+                <ion-img [src]="profileHeader" class="profile-img-header"></ion-img>
+                <div class="profile-img-wrapper">
+                    <ion-img [src]="profileImg" class="profile-img"></ion-img>
+                </div>
+                <div class="info">
+                    <h4>Jesús Giménez Cortés</h4>
+                    <h5>Departamento RRHH</h5>
+                </div>
+                <button class="sesion-close">Cerrar sesión</button>
+            </div>
+            <div class="contact-info">
+                <h6>Email:</h6>
+                <span>jgimenez@hiberus.com</span>
+                <h6>Teléfono:</h6>
+                <span>666999769</span>
+                
+            </div>
+        </div>
+        <div class="content-page">
+            <ion-list>
+                <ion-item>
+                    <ion-avatar slot="start">
+                        <ion-icon class="list-icon" name="clock"></ion-icon>
+                    </ion-avatar>
+                    <ion-label>
+                        <h2>Jornada</h2>
+                    </ion-label>
+                    <ion-icon color="primary" mode="ios" name="arrow-forward"></ion-icon>
+                </ion-item>
+        
+                <ion-item>
+                    <ion-avatar slot="start">
+                        <ion-icon class="list-icon" name="calendar"></ion-icon>
+                    </ion-avatar>
+                    <ion-label>
+                        <h2>Calendario laboral</h2>
+                    </ion-label>
+                    <ion-icon color="primary" mode="ios" name="arrow-forward"></ion-icon>
+                </ion-item>
+        
+                <ion-item>
+                    <ion-avatar slot="start">
+                        <ion-icon class="list-icon" name="airplane"></ion-icon>
+                    </ion-avatar>
+                    <ion-label>
+                        <h2>Vacaciones</h2>
+                    </ion-label>
+                    <ion-icon color="primary" mode="ios" name="arrow-forward"></ion-icon>
+                </ion-item>
+        
+                <ion-item>
+                    <ion-avatar slot="start">
+                        <ion-icon class="list-icon" name="cog"></ion-icon>
+                    </ion-avatar>
+                    <ion-label>
+                        <h2>Soporte</h2>
+                    </ion-label>
+                    <ion-icon color="primary" mode="ios" name="arrow-forward"></ion-icon>
+                </ion-item>
+        
+               
+            </ion-list>
+        </div>
+    </div>
+</ion-content>

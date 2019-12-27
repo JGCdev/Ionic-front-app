@@ -3,13 +3,17 @@
 
 /** Ionic CSS Variables **/
 :root {
+
+  --ion-default-font: 'Karla', sans-serif;
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #2b4a75;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-shade: rgba(6, 47, 119, 0.56);
+  --ion-color-primary-tint: #2D4B80;
+  --bgcolor: #e7edf4;
+  
 
   /** secondary **/
   --ion-color-secondary: #0cd1e8;

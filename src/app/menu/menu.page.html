@@ -1,0 +1,37 @@
+<ion-tabs>
+    <ion-tab-bar class="menu-sup" slot="bottom">
+      
+          <div class="search-bar">
+              <ion-searchbar placeholder="Búsqueda ..."></ion-searchbar>
+          </div>
+          
+          <ion-tab-button tab="inicio">
+            <ion-icon name="home"></ion-icon>
+            <ion-label>Noticias</ion-label>
+          </ion-tab-button>
+      
+          <ion-tab-button tab="personas">
+                <ion-icon name="contacts"></ion-icon>
+                <ion-label>Personas</ion-label>
+          </ion-tab-button>
+      
+          <ion-tab-button tab="mensajes">
+                <ion-icon name="chatboxes"></ion-icon>
+                <ion-label>Mensajes</ion-label>
+              <ion-badge>6</ion-badge>
+          </ion-tab-button>
+      
+          <ion-tab-button tab="empresa"> 
+                <ion-icon name="business"></ion-icon>
+                <ion-label>Empresa</ion-label>
+          </ion-tab-button>
+      
+          <ion-tab-button tab="personal">
+              <ion-icon name="person"></ion-icon>
+              <ion-label>Mi Área</ion-label>
+          </ion-tab-button>
+          <ion-img [src]="avatar" class="logo" (click)="presentPopover($event)"></ion-img>
+    </ion-tab-bar>
+
+    
+</ion-tabs>

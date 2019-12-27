@@ -1,0 +1,16 @@
+h3{
+    display: inline-block;
+    margin:0px;
+}
+.col-title{
+    display: flex;
+    align-items: center;
+
+        ion-icon {
+            font-size: 35px;
+        }
+        h3{
+            margin-left:10px;
+        }
+    
+}
